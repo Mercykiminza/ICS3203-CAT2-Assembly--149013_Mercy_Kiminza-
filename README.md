@@ -2,12 +2,16 @@
 **Assembly language programming CAT_2**
 
 
+
+
 **Task 1: Control Flow and Conditional Logic**
 Purpose: Classify a number as positive, negative, or zero.
 
 Key Features:
 Uses both conditional (CMP, JE, JL) and unconditional jumps (JMP).
 Demonstrates branching logic and ASCII-to-integer conversion.
+
+
 
 
 Task 2: Array Manipulation with Looping and Reversal
@@ -19,6 +23,8 @@ Avoids auxiliary memory, emphasizing memory efficiency.
 Demonstrates iterative processing using index pointers.
 
 
+
+
 **Task 3: Modular Program with Subroutines for Factorial Calculation**
 Purpose: Calculate the factorial of a number using a subroutine.
 
@@ -26,6 +32,8 @@ Key Features:
 Demonstrates modularity with a reusable subroutine.
 Utilizes the stack for saving/restoring registers to manage recursion.
 Outputs the result stored in a general-purpose register.
+
+
 
 
 **Task 4: Data Monitoring and Control Using Port-Based Simulation**
@@ -38,19 +46,23 @@ Uses conditional jumps to implement actions (start/stop motor, trigger alarm).
 
 
 
-**Running the Programs in VS Code**
-**1. Set Up the Environment**
-
+**Running the Programs in VS Code** 
+1. **Set Up the Environment**
 Install NASM (sudo apt install nasm on Linux).
+
 Use a Linux terminal or Windows Subsystem for Linux (WSL).
 
 
-2.**Compile the Code**
-**Save the code in a .asm file (e.g., task1.asm).**
+
+
+2. **Compile the Code**
+Save the code in a .asm file (e.g., task1.asm).
 nasm -f elf32 -o task1.o task1.asm
 
-**Link the object file to create an executable**
-**ld -m elf_i386 -o task1 task1.o**
+Link the object file to create an executable
+ld -m elf_i386 -o task1 task1.o
+
+
 
 3. **Run the program**
 
