@@ -52,7 +52,7 @@ nasm -f elf32 -o task1.o task1.asm
 **Link the object file to create an executable**
 **ld -m elf_i386 -o task1 task1.o**
 
-3**. Run the program**
+3. **Run the program**
 
 
 
